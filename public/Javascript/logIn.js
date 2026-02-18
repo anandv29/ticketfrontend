@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     try {
       const response = await fetch(
-        "https://irctc-ticket-booking-app.onrender.com/login",
+        "https://irctc-backend-production.up.railway.app/login",
         {
           method: "POST",
           headers: {

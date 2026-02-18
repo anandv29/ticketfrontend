@@ -1,4 +1,4 @@
-const backendURL = "https://irctc-ticket-booking-app.onrender.com/bookTicket";
+const backendURL = "https://irctc-backend-production.up.railway.app/bookTicket";
 const bookingLoader = document.getElementById("bookingLoader");
 
 let trainIdValidated = false;

@@ -92,7 +92,7 @@ document.addEventListener("DOMContentLoaded", () => {
           userEmail: document.getElementById("email").value.trim(),
         });
         res = await fetch(
-          "https://irctc-ticket-booking-app.onrender.com/SignUp",
+          "https://irctc-backend-production.up.railway.app/SignUp",
           { ...commonOpts, body }
         );
       } else if (currentStep === "verifyCode") {
@@ -101,7 +101,7 @@ document.addEventListener("DOMContentLoaded", () => {
           InputCode: document.getElementById("otp").value.trim(),
         });
         res = await fetch(
-          "https://irctc-ticket-booking-app.onrender.com/SignUp",
+          "https://irctc-backend-production.up.railway.app/SignUp",
           { ...commonOpts, body }
         );
       } else if (currentStep === "setPassword") {
@@ -110,7 +110,7 @@ document.addEventListener("DOMContentLoaded", () => {
           password: document.getElementById("password").value.trim(),
         });
         res = await fetch(
-          "https://irctc-ticket-booking-app.onrender.com/SignUp",
+          "https://irctc-backend-production.up.railway.app/SignUp",
           { ...commonOpts, body }
         );
       }

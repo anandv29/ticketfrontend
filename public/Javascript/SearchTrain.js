@@ -110,7 +110,7 @@ document.getElementById("search").addEventListener("click", (e) => {
   resultContainer.classList.remove("hidden");
   messageBox.classList.add("hidden");
 
-  fetch("https://irctc-ticket-booking-app.onrender.com/searchTrain", {
+  fetch("https://irctc-backend-production.up.railway.app/searchTrain", {
     method: "POST",
     headers: {
       "Content-Type": "application/x-www-form-urlencoded",
